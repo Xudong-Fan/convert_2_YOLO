@@ -1,12 +1,12 @@
-#-*-coding:utf-8-*-
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 21 11:32:40 2019
+
+@author: FanXudong
+"""
 
 import os
-from xml.etree.ElementTree import dump
-import json
-import pprint
-
 import argparse
-
 
 from Format import VOC, COCO, YOLO
 

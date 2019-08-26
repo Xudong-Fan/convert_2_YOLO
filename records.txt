@@ -1,1 +1,1 @@
-F:\Master_Beihang\xml_2_yolo\VOC\JPEGImages\000001.jpg
+F:\Master_Beihang\xml_2_yolo\convert_2_YOLO\VOC\JPEGImages\000001.jpg

@@ -1,1 +1,1 @@
-python convert-2-yolo.py --datasets VOC --img_path ./VOC/JPEGImages/ --label ./VOC/Annotations/ --convert_output_path ./YOLO/ --img_type ".jpg" --manipast_path ./ --cls_list_file ./VOC/voc.names
+python convert-2-yolo.py --datasets VOC --img_path ./VOC/JPEGImages/ --label ./VOC/Annotations/ --convert_output_path ./YOLO/ --img_type ".jpg" --records_path ./ --cls_list_file ./VOC/voc.names

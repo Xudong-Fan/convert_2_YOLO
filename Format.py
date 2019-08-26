@@ -1,16 +1,18 @@
-#-*-coding:utf-8-*-
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 21 11:32:40 2019
+
+@author: FanXudong
+"""
 
 import sys
 import os
-import csv
 
 import xml.etree.ElementTree as Et
 from xml.etree.ElementTree import Element, ElementTree
 from PIL import Image
 
 import json
-
-from xml.etree.ElementTree import dump
 
 # Common Data format
 """
