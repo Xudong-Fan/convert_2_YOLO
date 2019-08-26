@@ -12,7 +12,7 @@ Each dataset requries some parameters
    - like COCO / VOC
 
      ```bash
-     --datasets COCO
+     --datasets VOC
      ```
 
 2. --img_path
@@ -107,9 +107,7 @@ here is the structure for `VOC`
 ​
 ### 2. Create file or folder
 
-**Make `*.names` file in `./VOC/`**
-
-refer [darknet `voc.names` file](https://github.com/pjreddie/darknet/blob/master/data/voc.names)
+**Make `*.names` file in `./VOC/`**，refer [darknet `voc.names` file](https://github.com/pjreddie/darknet/blob/master/data/voc.names)
 
 ```bash
 aeroplane
@@ -134,11 +132,7 @@ train
 tvmonitor
 ```
 ​    
-**Make YOLO folder**
-
-```bash
-$ mkdir ./YOLO
-```
+**Make `./YOLO` folder**
     
 
 ### 3. Command
@@ -146,9 +140,9 @@ $ mkdir ./YOLO
 ```bash
 python convert-2-yolo.py --datasets VOC --img_path ./VOC/JPEGImages/ --label ./VOC/Annotations/ --convert_output_path ./YOLO/ --img_type ".jpg" --records_path ./ --cls_list_file ./VOC/voc.names
 
-VOC Parsing:   |████████████████████████████████████████| 100.0% (17125/17125) Complete
-YOLO Generating:|████████████████████████████████████████| 100.0% (17125/17125)Complete
-YOLO Saving:   |████████████████████████████████████████| 100.0% (17125/17125) Complete
+VOC Parsing:   |████████████████████████████████████████| 100.0% (1000/1000) Complete
+YOLO Generating:|████████████████████████████████████████| 100.0% (1000/1000)Complete
+YOLO Saving:   |████████████████████████████████████████| 100.0% (1000/1000) Complete
 ```
 
 ​    
